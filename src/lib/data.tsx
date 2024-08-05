@@ -1,291 +1,288 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Github, Twitter, Figma, Linkedin } from "lucide-react";
 
-import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
-import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
-import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
-import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoJavascript from "/public/images/logos/icon-javascript.svg";
+import LogoTypescript from "/public/images/logos/icon-typescript.svg";
+import LogoReact from "/public/images/logos/icon-react.svg";
+import LogoNextjs from "/public/images/logos/icon-nextjs.svg";
+import LogoNodejs from "/public/images/logos/icon-nodejs.svg";
+import LogoExpress from "/public/images/logos/icon-express.svg";
+import LogoExpressLight from "/public/images/logos/icon-express-light.svg";
+import LogoAngular from "/public/images/logos/icon-angular.svg";
+import LogoAngularLight from "/public/images/logos/icon-angular-light.svg";
+import LogoAWS from "/public/images/logos/icon-aws.svg";
+import LogoAWSLight from "/public/images/logos/icon-aws-light.svg";
+import LogoMaterialUI from "/public/images/logos/icon-material-ui.svg";
+import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
+import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
+import LogoSass from "/public/images/logos/icon-sass.svg";
+import LogoFigma from "/public/images/logos/icon-figma.svg";
+import LogoCypress from "/public/images/logos/icon-cypress.svg";
+import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
+import LogoGit from "/public/images/logos/icon-git.svg";
+import LogoReactNative from "/public/images/logos/icon-react-native.svg";
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+import LogoHussle from "/public/images/Hussle-Logo-Blue.png";
+import WanderLogo from "/public/images/Wander-Logos-Primary.png";
+import LogoDarkLearfield from "/public/images/LEARFIELD-blacklogo.png";
+import LogoLightLearfield from "/public/images/Learfield-Logo-White.png";
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
+import ProjectLiveVod from "/public/images/project-live-vod.png";
+import ProjectHussleLive from "public/images/project-hussle-live-video-desktop.jpg";
+import ProjectTicTacToe from "/public/images/project-tic-tac-toe.png";
 
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
-import AvatarDummy from '/public/images/avatar-dummy.svg';
+import AvatarAj from "/public/images/avatar-AJ-Call-Brau.jpeg";
+import AvatarJason from "/public/images/avatar-jason.jpg";
+import AvatarStefano from "/public/images/avatar-stefano.jpg";
 
 import {
   ExperienceDetails,
   ProjectDetails,
   TechDetails,
   TestimonialDetails,
-} from '@/lib/types';
+} from "@/lib/types";
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
-  FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+  GITHUB: "https://github.com/carterjpilling",
+  LINKEDIN: "https://www.linkedin.com/in/cj-pilling/",
 };
 
 export const NAV_LINKS = [
   {
-    label: 'About',
-    href: '#about',
+    label: "About",
+    href: "#about",
   },
   {
-    label: 'Work',
-    href: '#work',
+    label: "Work",
+    href: "#work",
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
+    label: "Testimonials",
+    href: "#testimonials",
   },
   {
-    label: 'Contact',
-    href: '#contact',
+    label: "Contact",
+    href: "#contact",
   },
 ];
 
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: "https://github.com/carterjpilling",
   },
   {
-    icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
-  },
-  {
-    icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/cj-pilling/",
   },
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
-    label: 'Javascript',
+    label: "Javascript",
     logo: LogoJavascript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
-    label: 'Typescript',
+    label: "Typescript",
     logo: LogoTypescript,
-    url: 'https://www.typescriptlang.org/',
+    url: "https://www.typescriptlang.org/",
   },
   {
-    label: 'React',
+    label: "React",
     logo: LogoReact,
-    url: 'https://react.dev/',
+    url: "https://react.dev/",
   },
   {
-    label: 'Next.js',
+    label: "Next.js",
     logo: LogoNextjs,
-    url: 'https://nextjs.org/',
+    url: "https://nextjs.org/",
   },
   {
-    label: 'Node.js',
+    label: "Node.js",
     logo: LogoNodejs,
-    url: 'https://nodejs.org/en',
+    url: "https://nodejs.org/en",
   },
   {
-    label: 'Express.js',
+    label: "Express.js",
     logo: LogoExpress,
     darkModeLogo: LogoExpressLight,
-    url: 'https://expressjs.com/',
+    url: "https://expressjs.com/",
   },
   {
-    label: 'Nest.js',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
+    label: "Angular",
+    logo: LogoAngular,
+    darkModeLogo: LogoAngularLight,
+    url: "https://angular.dev/",
   },
   {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
+    label: "Material UI",
+    logo: LogoMaterialUI,
+    url: "https://mui.com/material-ui/",
   },
   {
-    label: 'PostgreSQL',
+    label: "PostgreSQL",
     logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
+    url: "https://www.postgresql.org/",
   },
   {
-    label: 'MongoDB',
+    label: "MongoDB",
     logo: LogoMongoDB,
-    url: 'https://www.mongodb.com/',
+    url: "https://www.mongodb.com/",
   },
   {
-    label: 'Sass/Scss',
+    label: "Sass/Scss",
     logo: LogoSass,
-    url: 'https://sass-lang.com/',
+    url: "https://sass-lang.com/",
   },
   {
-    label: 'Tailwindcss',
-    logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
+    label: "AWS",
+    logo: LogoAWS,
+    darkModeLogo: LogoAWSLight,
+    url: "https://aws.amazon.com/",
   },
   {
-    label: 'Figma',
+    label: "Figma",
     logo: LogoFigma,
-    url: 'https://www.figma.com/',
+    url: "https://www.figma.com/",
   },
   {
-    label: 'Cypress',
+    label: "Cypress",
     logo: LogoCypress,
     darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
+    url: "https://www.cypress.io/",
   },
   {
-    label: 'Storybook',
-    logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
+    label: "React Native",
+    logo: LogoReactNative,
+    url: "https://reactnative.dev/",
   },
   {
-    label: 'Git',
+    label: "Git",
     logo: LogoGit,
-    url: 'https://git-scm.com/',
+    url: "https://git-scm.com/",
   },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
-    currentlyWorkHere: true,
+    logo: LogoHussle,
+    logoAlt: "Hussle Technology logo",
+    position: "Fullstack Software Developer",
+    startDate: new Date(2021, 1),
+    endDate: new Date(2024, 3),
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      `Led the development of a live streaming platform, built in React, that contributed to 70% of SaaS content
+revenue by integrating Shopify and various RESTful product APIs.`,
+      `Demonstrated exceptional communication skills, fostering productive interactions with UI/UX designers,
+engineers, product management teams, and clients.
+`,
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    logo: WanderLogo,
+    logoAlt: "Wander logo",
+    position: "React Developer Intern",
+    startDate: new Date(2020, 11),
+    endDate: new Date(2021, 1),
     summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
+      `Contributed to the early-stage development of Wander, an outdoor mapping company, focusing on building
+interactive Web maps using map.js within the React framework`,
+      `Integrated geospatial data into the maps, enabling users to visualize and interact with outdoor landmarks, routes,
+and points of interest effectively`,
     ],
   },
   {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
+    logo: LogoDarkLearfield,
+    darkModeLogo: LogoLightLearfield,
+    logoAlt: "Learfield Logo",
+    position: "Administrative Assistant",
     startDate: new Date(2015, 11),
     endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
+    summary: [
+      "Coordinated with Athletic Departments to create marketing events around major Sports including CFP Playoffs, Big 12 Basketball Tournament, Final Four 2019.",
+      "Worked for C-Suite Exectutives handling traveling, quarterly reports, expenses.",
+    ],
   },
 ];
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: "LIVE · VODs E-Commerce Tool",
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
+      "A video e-commerce platform built to integrate directly on client sites, allowing them to sell products through recorded videos.",
+    url: "https://www.shop.com/shop-live-video",
+    previewImage: ProjectLiveVod,
     technologies: [
-      'React',
-      'Typescript',
-      'React Bootstrap',
-      'Firebase',
-      'Express.js',
-      'PostgreSQL',
-      'Styled Components',
-      'Redux',
+      "Angular",
+      "Typescript",
+      "Node.JS",
+      "Express.js",
+      "MongoDB",
+      "NGRX",
+      "AWS",
     ],
   },
   {
-    name: 'Fiskil',
+    name: "LIVE Shopping Platform",
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      "A live streaming platform used by distributors to sell directly to their customers and prospects at any time. LIVE integrated with Hussle's CRM and e-commercse platform, spotify, and client product databases.",
+    url: "https://hussle.tech/live/",
+    previewImage: ProjectHussleLive,
     technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Material UI',
-      'Redux Toolkit',
-      'React Query',
-      'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
+      "Angular",
+      "Typescript",
+      "NodeJS",
+      "Express.js",
+      "MongoDB",
+      "Agora SDK",
+      "WebSockets",
+      "WebRTC",
+      "RESTFul API",
+      "Shopify",
     ],
   },
   {
-    name: 'Pepehousing',
+    name: "Tic-Tac-Toe",
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
-    ],
+      "A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
+    url: "https://cj-tic-tac-toe.netlify.app/",
+    previewImage: ProjectTicTacToe,
+    technologies: ["HTML", "CSS", "Javascript", "Netlify"],
   },
 ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
-    testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+    personName: "Jason Matheny",
+    personAvatar: AvatarJason,
+    title: "CEO - Hussle Technology",
+    testimonial: `I had the pleasure of working closely with CJ as his boss, who demonstrated exceptional skill and
+professionalism as a front-end engineer. His contributions were instrumental in implementing
+critical features, showcasing his talent and commitment to excellence.
+<br/> <br/>CJ's role extended beyond technical execution; he actively participated in collaborative sessions with
+clients, product teams, and stakeholders. His preparation and ability to present viable options greatly
+enriched our decision-making process.
+`,
   },
   {
-    personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
+    personName: "AJ Brau ",
+    personAvatar: AvatarAj,
+    title: "CEO & Founder - Wander",
     testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+      "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
   },
   {
-    personName: 'Joe Matkin',
-    personAvatar: AvatarDummy,
-    title: 'Freelancer',
-    testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+    personName: "Stefano Martinengo",
+    personAvatar: AvatarStefano,
+    title: "Colleague & Friend - Hussle Technology",
+    testimonial: `I had the privilege of working with CJ for 2 years recently. In that time he showed several attributes
+  that I feel any company would find as valuable assets.
+  <br/> <br/>
+The first being work ethic. CJ shortly after starting out was put on a project that was complex and
+required a pretty skilled mind. CJ proved to be an asset on that project despite constant changes that
+were happening within that project. On that project, CJ bounced from working on a team, to being
+the sole and lead developer on the project. <br/> <br/>
+The second being his receptiveness to feedback as well as to giving feedback. CJ always took any
+feedback and criticism with a cool head and receptive spirit. `,
   },
 ];

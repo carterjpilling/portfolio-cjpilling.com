@@ -1,57 +1,38 @@
-import Script from 'next/script';
-import { Inter } from 'next/font/google';
-import { Metadata } from 'next';
+import Script from "next/script";
+import { Inter } from "next/font/google";
+import { Metadata } from "next";
 
-import './globals.css';
-import Header from '@/components/layout/header';
-import { Providers } from '@/lib/providers';
-import Footer from '@/components/layout/footer';
+import "./globals.css";
+import Header from "@/components/layout/header";
+import { Providers } from "@/lib/providers";
+import Footer from "@/components/layout/footer";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
-const title = 'Sagar Shah | Full Stack Developer From Ahmedabad, India.';
+const title = "CJ Pilling | Full Stack Developer From Provo, UT.";
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
-const url = 'https://sagarshah.dev';
+  "A full stack developer who specializes in front-end development from Provo, UT.";
+const url = "https://cjpilling.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
   title,
   description,
   keywords: [
-    'Frontend Developer',
-    'Full Stack Developer',
-    'React Developer',
-    'Next.js Developer',
+    "Frontend Developer",
+    "Full Stack Developer",
+    "React Developer",
+    "Next.js Developer",
   ],
-  creator: 'Sagar Shah',
+  creator: "CJ Pilling",
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
-  openGraph: {
-    type: 'website',
-    url,
-    title,
-    description,
-    siteName: title,
-    images: [
-      {
-        url: '/images/open-graph-sagar.png',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title,
-    description,
-    creator: '@shahsagarm',
-    images: '/images/open-graph-sagar.png',
-  },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    icon: "/CJWebsiteLogo.png",
+    shortcut: "/CJWebsiteLogo.png",
+    apple: "/CJWebsiteLogo.png",
   },
 };
 
@@ -81,7 +62,7 @@ export default function RootLayout({
           </Script>
         </head>
       ) : null}
-      <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
+      <body className={`${inter?.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
