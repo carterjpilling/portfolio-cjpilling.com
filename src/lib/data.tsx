@@ -33,6 +33,7 @@ import ProjectTicTacToe from "/public/images/project-tic-tac-toe.png";
 import AvatarAj from "/public/images/avatar-AJ-Call-Brau.jpeg";
 import AvatarJason from "/public/images/avatar-jason.jpg";
 import AvatarStefano from "/public/images/avatar-stefano.jpg";
+import AvatarAnna from "/public/images/avatar-anna.png";
 
 import {
   ExperienceDetails,
@@ -176,6 +177,7 @@ revenue by integrating Shopify and various RESTful product APIs.`,
       `Demonstrated exceptional communication skills, fostering productive interactions with UI/UX designers,
 engineers, product management teams, and clients.
 `,
+      `Working with UI/UX designers created several product landing pages and marketing materials.`,
     ],
   },
   {
@@ -272,9 +274,19 @@ enriched our decision-making process.
       "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
   },
   {
+    personName: "Anna Inman",
+    personAvatar: AvatarAnna,
+    title: "Colleague - Verb Technology",
+    testimonial: `I truly can't say enough great things about working with CJ. When I started at Verb, CJ and I were peers, we worked closely together during that time while I was managing projects and running scrum ceremonies with the engineering teams. From day 1 CJ both understood what was necessary from a technical perspective to successfully deliver what was expected - but further than that he took the time to understand the larger team and company-wide initiatives to ensure as he found technical solutions, they were truly solving the problem at hand. 
+  <br/> <br/>
+When I was moved to manage the engineering teams, CJ was one of the engineers I knew I could go to when tasked with more technical planning and resource allocation. His willingness to raise his hand and ask the question everyone else was silently thinking, his ability to complete tasks on time without fail, and the culture add he was to the team to get others sharing their thoughts / feelings / assumptions / preferences all set him apart as a leader on the engineering team. 
+  <br/> <br/>
+I would absolutely work with CJ again if given the opportunity!`,
+  },
+  {
     personName: "Stefano Martinengo",
     personAvatar: AvatarStefano,
-    title: "Colleague & Friend - Hussle Technology",
+    title: "Colleague - Hussle Technology",
     testimonial: `I had the privilege of working with CJ for 2 years recently. In that time he showed several attributes
   that I feel any company would find as valuable assets.
   <br/> <br/>
