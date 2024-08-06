@@ -244,7 +244,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: "Tic-Tac-Toe",
     description:
-      "A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
+      "Project built for a coding challenge, a simple game of Tic-Tac-Toe. The challenge was to create a game that could be played against an unbeatable computer.",
     url: "https://cj-tic-tac-toe.netlify.app/",
     previewImage: ProjectTicTacToe,
     technologies: ["HTML", "CSS", "Javascript", "Netlify"],
